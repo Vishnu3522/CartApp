@@ -1,0 +1,57 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+  }
+  
+  .card h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  li .item-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-info .title {
+    margin-right: 12px;
+  }
+  
+  li img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

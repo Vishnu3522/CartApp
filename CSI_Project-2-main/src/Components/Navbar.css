@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #f7f7f7;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  margin-right: 50px;
+}
+
+.cart-icon {
+  margin-left: 10px;
+}
+
+.navbar-link a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar-link a:hover {
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .navbar-link {
+    margin-right: 10px;
+  }
+}
