@@ -25,7 +25,7 @@ function Cart({ cartItems,removeFromCart }) {
                 {item.title}  ${item.price}  <img
                         className='card-img-top'
                         src={item.image}
-                        alt='Card image cap'
+      
                       />
                       <br>
                       </br>
